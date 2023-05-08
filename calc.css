@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(75deg, #9e3838, #194c92, #db20ec);
+}
+.calculator{
+    border: 2px solid  #db20ec;
+    background: linear-gradient(90deg, #194c92, #db20ec);
+    width: 320px;
+    height: 440px;
+    border-radius: 25px;
+    position: relative;
+    padding: 10px;
+}
+.calculator #inputBox{
+    padding: 5px;
+    font-size: 25px;
+    width: 300px;
+    border-radius: 0px 0px 10px 10px;
+    text-align: right;
+    background-color: aquamarine;
+    color: black;
+    outline: none;
+    cursor: pointer;
+    border: none;  
+}
+.calculator #output{
+    padding: 5px;
+    font-size: 25px;
+    width: 300px;
+    border-radius: 10px 10px 0px 0px;
+    text-align: right;
+    background-color: aquamarine;
+    color: black;
+    cursor: pointer;
+    outline: none;
+    border: none;
+
+}
+.calculator button{
+    border: none;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    background: transparent;
+    color: #ffffff;
+    font-size: 20px;
+    box-shadow: -8px -8px 15px rgba(0, 0, 0, 0.2), 8px 8px 15px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+.calculator .operator{
+    border: none;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    background: transparent;
+    font-size: 20px;
+    box-shadow: -8px -8px 15px rgba(0, 0, 0, 0.2), 8px 8px 15px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    color: #00ff22;
+}
+.calculator .equalBtn{
+    background-color: orange;
+}
